@@ -48,8 +48,12 @@ export PATH="$PATH:/bin/elixir"
 
 ## git setup
 
+* [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* [add gpg key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
+
 ```bash
 git config --global user.name "Zachary Falkner"
 git config --global user.email falkzach@gmail.com
 git config --global init.defaultBranch main
+git config --global commit.gpgsign true
 ```
