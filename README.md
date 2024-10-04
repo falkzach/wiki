@@ -6,5 +6,5 @@ General purpose software engineering wiki
 * [Operating Principles](./OperatingPrinciples.md)
 
 ## Engineering Process
-
+* [Agile Manifesto](./AgileManifesto.md)
 * [Pointing](./Pointing.md)
