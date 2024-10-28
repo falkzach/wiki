@@ -58,3 +58,20 @@ git config --global init.defaultBranch main
 git config --global commit.gpgsign true
 git config --global core.autocrlf
 ```
+
+## vs code
+
+`~/.config/Code/User/settings.json`
+```json
+{
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "editor.rulers": [
+        80, 120
+    ]
+}
+
+```
