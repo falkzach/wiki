@@ -1,6 +1,6 @@
 # Development Environment
 
-## extending .bashrc
+## Extending .bashrc
 
 Extend your `.bashrc` file to more easily manage environment variables and profile changes.
 
@@ -46,7 +46,7 @@ export PATH="$PATH:/home/falkzach/.local/bin"
 export PATH="$PATH:/bin/elixir"
 ```
 
-## git setup
+## Git setup
 
 * [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 * [add gpg key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
@@ -59,7 +59,9 @@ git config --global commit.gpgsign true
 git config --global core.autocrlf
 ```
 
-## vs code
+See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other systems.
+
+## VS code
 
 `~/.config/Code/User/settings.json`
 ```json

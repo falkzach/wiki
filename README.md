@@ -6,7 +6,9 @@ General purpose software engineering wiki
 * [Operating Principles](./OperatingPrinciples.md)
 
 ## Development
+* [PGP Certificates](./PgpCertificates.md)
 * [Development Environment](./DevelopmentEnvironment.md)
+* [Development Certificates](./DevelopmentCertificates.md)
 
 ## Engineering Process
 * [Agile Manifesto](./AgileManifesto.md)
