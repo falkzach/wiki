@@ -92,3 +92,11 @@ On a new project be sure to install the latest lts create the `.nvmrc` file
 nvm install --lts
 node -v > .nvmrc
 ```
+
+## Husky Pre Commit Hooks
+
+To run pre-commit hooks setup a `~/.huskyrc` file
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
