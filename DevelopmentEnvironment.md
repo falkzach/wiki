@@ -43,7 +43,6 @@ export MYENVAR=MYENVARVALUE
 `.bash_profile`
 ```bash
 export PATH="$PATH:/home/falkzach/.local/bin"
-export PATH="$PATH:/bin/elixir"
 ```
 
 ## Git setup
@@ -76,4 +75,20 @@ See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other sy
     ]
 }
 
+```
+
+## NVM
+
+It is preferable to use [NVM](https://github.com/nvm-sh/nvm) to manage Node versions.
+
+In a project with a `.nvmrc` file
+```bash
+nvm install
+nvm use
+```
+
+On a new project be sure to install the latest lts create the `.nvmrc` file
+```bash
+nvm install --lts
+node -v > .nvmrc
 ```
