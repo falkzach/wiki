@@ -93,10 +93,21 @@ nvm install --lts
 node -v > .nvmrc
 ```
 
-## Husky Pre Commit Hooks
+### Husky Pre Commit Hooks
 
 To run pre-commit hooks setup a `~/.huskyrc` file
 ```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+
+## Dotnet
+
+
+
+See [Install dotnet](https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu) and configured either the ubuntu backports or microsoft sources. Then install your desired dotnet sdk.
+
+```bash
+sudo apt update
+sudo apt upgrade dotnet-sdk-8.0
 ```
