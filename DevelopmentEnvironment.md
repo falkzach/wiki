@@ -60,6 +60,13 @@ git config --global core.autocrlf
 
 See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other systems.
 
+## Fira Code
+[Fira Code](https://github.com/tonsky/FiraCode): free monospaced font with programming ligatures
+
+```bash
+sudo apt install fonts-firacode
+```
+
 ## VS code
 
 `~/.config/Code/User/settings.json`
@@ -72,9 +79,11 @@ See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other sy
     "git.enableSmartCommit": true,
     "editor.rulers": [
         80, 120
-    ]
+    ],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
 }
-
 ```
 
 ## NVM
@@ -102,8 +111,6 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 ## Dotnet
-
-
 
 See [Install dotnet](https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu) and configured either the ubuntu backports or microsoft sources. Then install your desired dotnet sdk.
 
