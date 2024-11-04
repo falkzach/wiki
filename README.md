@@ -10,6 +10,9 @@ General purpose software engineering wiki
 * [Development Environment](./DevelopmentEnvironment.md)
 * [Development Certificates](./DevelopmentCertificates.md)
 
+## Deployment
+* [Cloud Platforms](./CloudPlatforms.md)
+
 ## Engineering Process
 * [Agile Manifesto](./AgileManifesto.md)
 * [Pointing](./Pointing.md)
