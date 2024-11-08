@@ -33,6 +33,9 @@ fi
 `.bash_aliases`
 ```bash
 alias myalias="~/scripts/myscript.sh"
+alias d=doctl
+alias k=kubectl
+alias u="cat /proc/sys/kernel/random/uuid"
 ```
 
 `.bash_env`

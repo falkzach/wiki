@@ -46,8 +46,8 @@ Examples:
 * There is no maximum, use your PTO
 * Log your PTO, log your sick days, log your jury duty
 * Mental health days are sick days
-* Commit and deliver; excel and recharge
+* Commit and deliver; rest and recharge
 
 ## Wellness
 
-We all perform our best when we are physically and mentally healthy. Being well comes before work.
+We all perform our best when we are physically, mentally, and emotionally healthy. Being well comes before work. Always.
