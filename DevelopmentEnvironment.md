@@ -7,6 +7,7 @@ Extend your `.bashrc` file to more easily manage environment variables and profi
 Below the existing bash_aliases section, add bash_env and bash_profile
 
 `.bashrc`
+
 ```bash
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -31,6 +32,7 @@ fi
 ```
 
 `.bash_aliases`
+
 ```bash
 alias myalias="~/scripts/myscript.sh"
 alias d=doctl
@@ -39,31 +41,35 @@ alias u="cat /proc/sys/kernel/random/uuid"
 ```
 
 `.bash_env`
+
 ```bash
 export MYENVAR=MYENVARVALUE
 ```
 
 `.bash_profile`
+
 ```bash
 export PATH="$PATH:/home/falkzach/.local/bin"
 ```
 
 ## Git setup
 
-* [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-* [add gpg key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
+- [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [add gpg key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
 ```bash
 git config --global user.name "Zachary Falkner"
 git config --global user.email falkzach@gmail.com
 git config --global init.defaultBranch main
 git config --global commit.gpgsign true
+git config --global user.signingkey 2966374CB10156615982E3F49A6378FCB050C64B
 git config --global core.autocrlf
 ```
 
 See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other systems.
 
 ## Fira Code
+
 [Fira Code](https://github.com/tonsky/FiraCode): free monospaced font with programming ligatures
 
 ```bash
@@ -73,19 +79,18 @@ sudo apt install fonts-firacode
 ## VS code
 
 `~/.config/Code/User/settings.json`
+
 ```json
 {
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "git.enableSmartCommit": true,
-    "editor.rulers": [
-        80, 120
-    ],
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "monospace",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "editor.rulers": [80, 120],
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace"
 }
 ```
 
@@ -94,12 +99,14 @@ sudo apt install fonts-firacode
 It is preferable to use [NVM](https://github.com/nvm-sh/nvm) to manage Node versions.
 
 In a project with a `.nvmrc` file
+
 ```bash
 nvm install
 nvm use
 ```
 
 On a new project be sure to install the latest lts create the `.nvmrc` file
+
 ```bash
 nvm install --lts
 node -v > .nvmrc
@@ -108,6 +115,7 @@ node -v > .nvmrc
 ### Husky Pre Commit Hooks
 
 To run pre-commit hooks setup a `~/.huskyrc` file
+
 ```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
