@@ -35,6 +35,7 @@ fi
 
 ```bash
 alias myalias="~/scripts/myscript.sh"
+alias a=argocd
 alias d=doctl
 alias k=kubectl
 alias u="cat /proc/sys/kernel/random/uuid"
@@ -129,3 +130,7 @@ See [Install dotnet](https://learn.microsoft.com/en-us/dotnet/core/install/linux
 sudo apt update
 sudo apt upgrade dotnet-sdk-8.0
 ```
+
+## ArgoCD CLI
+
+See [Install CLI](https://kostis-argo-cd.readthedocs.io/en/refresh-docs/getting_started/install_cli/)
