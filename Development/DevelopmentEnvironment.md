@@ -77,6 +77,12 @@ See [Pgp Certificates](./PgpCertificates.md) for moving certificates to other sy
 sudo apt install fonts-firacode
 ```
 
+## Document query tools
+
+```bash
+sudo apt install -y jq xq yq
+```
+
 ## VS code
 
 `~/.config/Code/User/settings.json`
