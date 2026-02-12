@@ -16,3 +16,11 @@ General purpose software engineering wiki
 ## Engineering Process
 * [Agile Manifesto](./EngineeringProcess/AgileManifesto.md)
 * [Pointing](./EngineeringProcess/Pointing.md)
+
+## TODO
+
+* Project Sizing
+* Post Mortems
+* On Call
+* Incidents, Severity
+* Career Ladders, Growth, Mentoring
